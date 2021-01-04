@@ -23,10 +23,10 @@
 
                 <attribute name="attrs">{'readonly': False, 'required': True}</attribute>
             </xpath>
-             <xpath expr="//field[@name='is_cash_count']" position="attributes">
+<!--             <xpath expr="//field[@name='is_cash_count']" position="attributes">-->
 
-                <attribute name="invisible">1</attribute>
-            </xpath>
+<!--                <attribute name="invisible">1</attribute>-->
+<!--            </xpath>-->
         </field>
     </record>
 
