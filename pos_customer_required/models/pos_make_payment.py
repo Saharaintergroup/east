@@ -32,3 +32,5 @@ class PaymentMethod(models.Model):
 
     require_customer = fields.Boolean(
         string=' Require Customer', )
+
+    cash_journal_id = fields.Many2one('account.journal',domain=[('type', 'in', ('bank', 'cash'))])
